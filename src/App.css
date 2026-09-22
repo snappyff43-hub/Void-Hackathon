@@ -1,0 +1,19 @@
+/* App custom layout helpers */
+.ct-dashboard-grid {
+  grid-template-columns: minmax(0, 2.4fr) minmax(310px, 1fr);
+}
+
+@media (max-width: 1024px) {
+  .ct-dashboard-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.ct-nav-item:hover {
+  background-color: var(--bg-surface-hover) !important;
+  color: var(--text-primary) !important;
+}
+
+.ct-card-hoverable:hover {
+  border-color: var(--border-strong) !important;
+}
