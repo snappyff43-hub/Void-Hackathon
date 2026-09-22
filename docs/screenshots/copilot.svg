@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" width="100%" height="100%">
+  <rect width="960" height="540" fill="#090d16" />
+  <!-- Sidebar -->
+  <rect width="220" height="540" fill="#0c111d" stroke="#1e293b" stroke-width="1" />
+  <text x="24" y="38" fill="#f8fafc" font-family="sans-serif" font-size="16" font-weight="700">CYBERTRACE</text>
+  <text x="24" y="256" fill="#38bdf8" font-family="sans-serif" font-size="12" font-weight="600">■ AI Copilot</text>
+
+  <!-- Copilot Pane -->
+  <g transform="translate(240, 20)">
+    <text x="10" y="24" fill="#f8fafc" font-family="sans-serif" font-size="18" font-weight="700">AI Investigation Copilot</text>
+    <text x="10" y="44" fill="#94a3b8" font-family="sans-serif" font-size="11">Evidence-grounded conversational intelligence with deterministic citations</text>
+
+    <!-- Query Box -->
+    <g transform="translate(10, 60)">
+      <rect width="690" height="60" rx="8" fill="#131b2e" stroke="#334155" />
+      <text x="16" y="24" fill="#94a3b8" font-family="sans-serif" font-size="10" font-weight="700">INVESTIGATOR QUERY:</text>
+      <text x="16" y="44" fill="#f8fafc" font-family="sans-serif" font-size="12" font-weight="600">"Show the complete money flow."</text>
+    </g>
+
+    <!-- Response Box -->
+    <g transform="translate(10, 135)">
+      <rect width="690" height="360" rx="8" fill="#0f172a" stroke="#7c5cfc" stroke-width="1.5" />
+      <rect width="690" height="30" rx="8" fill="rgba(124, 92, 252, 0.15)" />
+      <text x="16" y="20" fill="#a78bfa" font-family="sans-serif" font-size="11" font-weight="700">GROUNDED COPILOT ANALYSIS (CONFIDENCE: HIGH • 96%)</text>
+      
+      <!-- Narrative -->
+      <text x="16" y="55" fill="#e2e8f0" font-family="sans-serif" font-size="11">The evidence-linked transaction path begins with reporting victim VPA (victim.user@okaxis) transferring</text>
+      <text x="16" y="72" fill="#e2e8f0" font-family="sans-serif" font-size="11">₹75,000 to primary mule account (mule01@bank). Within 6 minutes and 43 seconds, ₹68,000 was layered</text>
+      <text x="16" y="89" fill="#e2e8f0" font-family="sans-serif" font-size="11">onward to intermediary account (bridge02@bank), followed by ₹62,000 routed toward cash-out endpoint (XXXX9344).</text>
+
+      <!-- Key Findings Subbox -->
+      <rect x="16" y="110" width="658" height="110" rx="6" fill="#131b2e" stroke="#1e293b" />
+      <text x="28" y="130" fill="#fbbf24" font-family="sans-serif" font-size="10" font-weight="700">EXTRACTED KEY FINDINGS:</text>
+      <text x="28" y="150" fill="#f8fafc" font-family="sans-serif" font-size="10">• Initial disbursement: ₹75,000 transferred via UPI at 10:31:02</text>
+      <text x="28" y="170" fill="#f8fafc" font-family="sans-serif" font-size="10">• Layer 2 forward: ₹68,000 forwarded via IMPS switch at 10:42:11 (delta: 6m 43s)</text>
+      <text x="28" y="190" fill="#f8fafc" font-family="sans-serif" font-size="10">• Layer 3 cash-out: ₹62,000 settled into terminal node at 10:58:43 (ATM liquidation target)</text>
+      <text x="28" y="210" fill="#f43f5e" font-family="sans-serif" font-size="10">• Observed difference: ₹7,000 retained across intermediaries</text>
+
+      <!-- Evidence Citations -->
+      <text x="16" y="245" fill="#94a3b8" font-family="sans-serif" font-size="10" font-weight="700">PRIMARY EVIDENCE CITATIONS:</text>
+      <rect x="16" y="255" width="205" height="35" rx="4" fill="#1e293b" stroke="#334155" />
+      <text x="24" y="270" fill="#38bdf8" font-family="monospace" font-size="9" font-weight="600">[evd-002] UPI_RECORDS.csv</text>
+      <text x="24" y="282" fill="#94a3b8" font-family="sans-serif" font-size="8">Row 27 • ₹75,000 Credit</text>
+
+      <rect x="230" y="255" width="205" height="35" rx="4" fill="#1e293b" stroke="#334155" />
+      <text x="238" y="270" fill="#38bdf8" font-family="monospace" font-size="9" font-weight="600">[evd-001] BANK_TRANSACTIONS.csv</text>
+      <text x="238" y="282" fill="#94a3b8" font-family="sans-serif" font-size="8">Row 2 • ₹68,000 IMPS Forward</text>
+
+      <rect x="445" y="255" width="205" height="35" rx="4" fill="#1e293b" stroke="#334155" />
+      <text x="453" y="270" fill="#38bdf8" font-family="monospace" font-size="9" font-weight="600">[evd-001] BANK_TRANSACTIONS.csv</text>
+      <text x="453" y="282" fill="#94a3b8" font-family="sans-serif" font-size="8">Row 3 • ₹62,000 ATM Hop</text>
+
+      <!-- Audit Badge -->
+      <rect x="16" y="305" width="658" height="35" rx="4" fill="#111827" stroke="#1f2937" />
+      <text x="24" y="326" fill="#34d399" font-family="sans-serif" font-size="9" font-weight="600">✓ Logged to Tamper-Evident Forensic Audit Ledger (Timestamp: 11:04:12 • Zero External Data Egress)</text>
+    </g>
+  </g>
+</svg>

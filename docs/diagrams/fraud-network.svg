@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 240" width="100%" height="100%">
+  <rect width="880" height="240" rx="10" fill="#090d16" stroke="#1e293b" stroke-width="1.5" />
+  <text x="30" y="36" fill="#f8fafc" font-family="sans-serif" font-size="15" font-weight="700">CYBERTRACE — 3-HOP FINANCIAL TRANSIT &amp; CASH-OUT TOPOLOGY</text>
+  <text x="30" y="54" fill="#94a3b8" font-family="sans-serif" font-size="10">Synthetic Demonstration Case: Rapid Layering &amp; Liquidation Pattern</text>
+
+  <!-- Hop 1: Victim -->
+  <g transform="translate(30, 80)">
+    <rect width="180" height="110" rx="8" fill="#0f172a" stroke="#38bdf8" stroke-width="1.5" />
+    <text x="14" y="24" fill="#38bdf8" font-family="sans-serif" font-size="10" font-weight="700">COMPLAINANT / VICTIM</text>
+    <text x="14" y="48" fill="#f8fafc" font-family="monospace" font-size="11">victim.user@okaxis</text>
+    <text x="14" y="70" fill="#94a3b8" font-family="sans-serif" font-size="10">Axis Bank Savings</text>
+    <text x="14" y="94" fill="#38bdf8" font-family="monospace" font-size="11" font-weight="700">- ₹75,000</text>
+  </g>
+
+  <!-- Transfer Line 1 -->
+  <path d="M 210 135 L 250 135" stroke="#ef4444" stroke-width="2" />
+  <text x="230" y="125" text-anchor="middle" fill="#ef4444" font-family="sans-serif" font-size="9" font-weight="600">10:31:02</text>
+
+  <!-- Hop 2: Primary Mule -->
+  <g transform="translate(250, 80)">
+    <rect width="180" height="110" rx="8" fill="#450a0a" stroke="#ef4444" stroke-width="1.5" />
+    <text x="14" y="24" fill="#ef4444" font-family="sans-serif" font-size="10" font-weight="700">LAYER 1: PRIMARY MULE</text>
+    <text x="14" y="48" fill="#f8fafc" font-family="monospace" font-size="11">mule01@bank</text>
+    <text x="14" y="70" fill="#94a3b8" font-family="sans-serif" font-size="10">HDFC ACCT-4821</text>
+    <text x="14" y="94" fill="#ef4444" font-family="sans-serif" font-size="10" font-weight="600">Risk: 95/100 (Critical)</text>
+  </g>
+
+  <!-- Transfer Line 2 -->
+  <path d="M 430 135 L 470 135" stroke="#f97316" stroke-width="2" />
+  <text x="450" y="125" text-anchor="middle" fill="#f97316" font-family="sans-serif" font-size="9" font-weight="600">+6m 43s</text>
+
+  <!-- Hop 3: Intermediary -->
+  <g transform="translate(470, 80)">
+    <rect width="180" height="110" rx="8" fill="#431407" stroke="#f97316" stroke-width="1.5" />
+    <text x="14" y="24" fill="#f97316" font-family="sans-serif" font-size="10" font-weight="700">LAYER 2: INTERMEDIARY</text>
+    <text x="14" y="48" fill="#f8fafc" font-family="monospace" font-size="11">bridge02@bank</text>
+    <text x="14" y="70" fill="#94a3b8" font-family="sans-serif" font-size="10">ICICI ACCT-7712</text>
+    <text x="14" y="94" fill="#fb923c" font-family="monospace" font-size="11" font-weight="700">₹68,000 Transferred</text>
+  </g>
+
+  <!-- Transfer Line 3 -->
+  <path d="M 650 135 L 690 135" stroke="#a855f7" stroke-width="2" />
+  <text x="670" y="125" text-anchor="middle" fill="#a855f7" font-family="sans-serif" font-size="9" font-weight="600">10:58:43</text>
+
+  <!-- Hop 4: Cash-out -->
+  <g transform="translate(690, 80)">
+    <rect width="160" height="110" rx="8" fill="#3b0764" stroke="#a855f7" stroke-width="1.5" />
+    <text x="14" y="24" fill="#c084fc" font-family="sans-serif" font-size="10" font-weight="700">LAYER 3: TERMINAL</text>
+    <text x="14" y="48" fill="#f8fafc" font-family="monospace" font-size="11">XXXX9344</text>
+    <text x="14" y="70" fill="#94a3b8" font-family="sans-serif" font-size="10">Axis Bank • CASH-ATM-09</text>
+    <text x="14" y="94" fill="#c084fc" font-family="monospace" font-size="11" font-weight="700">₹62,000 Target</text>
+  </g>
+</svg>
