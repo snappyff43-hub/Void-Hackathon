@@ -1,5 +1,7 @@
 # CYBERTRACE — 3-Minute Hackathon Demonstration Script
 
+> 🎥 **Official Demo Video:** [**▶ Watch the Full CYBERTRACE Demo on Google Drive**](https://drive.google.com/file/d/1dBlu-0WFrTRQxKt5yXT18GfEw4t4wpex/view?usp=drivesdk)
+
 ## Objective
 Demonstrate how CYBERTRACE solves evidence fragmentation by transforming scattered, unlinked files into actionable forensic intelligence within 3 minutes.
 

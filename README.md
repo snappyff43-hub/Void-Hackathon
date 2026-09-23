@@ -1,9 +1,9 @@
 <div align="center">
 
 # CYBERTRACE
-### AI-Powered Unified Cyber Fraud Investigation &amp; Evidence Correlation Platform
+### AI-Powered Unified Cyber Fraud Investigation & Evidence Correlation Platform
 
-> **"From Scattered Evidence to Actionable Intelligence."**
+**From Scattered Evidence to Actionable Intelligence.**
 
 [![React](https://img.shields.io/badge/React-19.2-61DAFB?style=for-the-badge&logo=react&logoColor=black)](https://react.dev/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.x-3178C6?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
@@ -13,11 +13,64 @@
 [![GitHub](https://img.shields.io/badge/GitHub-Void--Hackathon-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/snappyff43-hub/Void-Hackathon.git)
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue?style=for-the-badge)](LICENSE)
 
+</div>
+
+---
+
+<div align="center">
+
+## 🎥 CYBERTRACE — PROJECT DEMO
+
+### From Scattered Evidence to Actionable Intelligence
+
+**See CYBERTRACE in action — from scattered digital evidence to an explainable cyber-fraud investigation.**
+
 <br/>
 
-[Live Demo Walkthrough](#19-demo-workflow) • [System Architecture](#7-system-architecture) • [Theory Documentation](docs/theory/digital-forensics.md) • [Research References](docs/references.md)
+<a href="https://drive.google.com/file/d/1dBlu-0WFrTRQxKt5yXT18GfEw4t4wpex/view?usp=drivesdk">
+  <img src="https://img.shields.io/badge/▶%20WATCH%20FULL%20DEMO-Google%20Drive-7C3AED?style=for-the-badge" alt="Watch CYBERTRACE Demo" height="38" />
+</a>
+
+<br/><br/>
+
+### ▶️ WATCH THE FULL DEMO
+
+[**▶ WATCH CYBERTRACE DEMO**](https://drive.google.com/file/d/1dBlu-0WFrTRQxKt5yXT18GfEw4t4wpex/view?usp=drivesdk)
+
+### 🎬 Demo Video
+
+**Google Drive Demo Video**
+
+<a href="https://drive.google.com/file/d/1dBlu-0WFrTRQxKt5yXT18GfEw4t4wpex/view?usp=drivesdk">
+  <strong>🎬 Open / Watch Demo Video →</strong>
+</a>
+
+<br/><br/>
+
+> Demo video hosted on Google Drive.
 
 </div>
+
+---
+
+### What the Demo Covers
+
+The demo showcases the complete CYBERTRACE investigation workflow:
+
+- 📊 **Investigation Dashboard** — Case docket telemetry, active investigations overview, and operational triage metrics.
+- 📁 **Evidence Vault** — Cryptographic WebCrypto SHA-256 bitstream verification and tamper-evident file validation.
+- 🔗 **Entity Correlation** — Cross-source identifier resolution across telecom CDRs, bank ledgers, and IP logs with privacy masking.
+- 🕸️ **Fraud Network Graph** — Vector SVG topological visualization isolating multi-hop mule layering and money flow transit.
+- ⏱️ **Investigation Replay** — Interactive chronological scrubber linking pre-incident suspect communications to financial debits.
+- ⚠️ **Risk Intelligence** — Transparent, additive 0–100 risk scoring with verifiable factor calculations.
+- 🤖 **AI Investigation Copilot** — Air-gapped, zero-hallucination assistant citing exact evidence files and row references.
+- 📋 **Golden-Hour Investigation Brief** — Rapid operational intelligence dossier auto-formatting Section 91 CrPC and Section 67C IT Act notices.
+
+---
+
+### 🧭 Quick Access
+
+[🎥 Watch Demo](https://drive.google.com/file/d/1dBlu-0WFrTRQxKt5yXT18GfEw4t4wpex/view?usp=drivesdk) &nbsp;•&nbsp; [🏗️ Architecture](docs/architecture/) &nbsp;•&nbsp; [📊 Diagrams](docs/diagrams/) &nbsp;•&nbsp; [🖥️ Screenshots](docs/screenshots/) &nbsp;•&nbsp; [📚 Documentation](docs/) &nbsp;•&nbsp; [📖 Demo Guide](docs/demo/demo-flow.md)
 
 ---
 
@@ -27,6 +80,8 @@
 ---
 
 ## Table of Contents
+- 🎥 [**Official Demo Video (Google Drive)**](#-cybertrace--project-demo)
+- 📋 [**What the Demo Covers**](#what-the-demo-covers)
 1. [Overview](#1-overview)
 2. [Problem Statement](#2-problem-statement)
 3. [Our Solution](#3-our-solution)
@@ -330,6 +385,9 @@ d:/PERCEPTOMINDS/
 ---
 
 ## 19. Demo Workflow
+
+> 🎥 **Watch the Official Demo:** [**▶ Watch Full CYBERTRACE Walkthrough on Google Drive**](https://drive.google.com/file/d/1dBlu-0WFrTRQxKt5yXT18GfEw4t4wpex/view?usp=drivesdk)
+
 For a step-by-step 3-minute hackathon judge walkthrough, consult the [Demonstration Guide](docs/demo/demo-flow.md):
 1. **Dashboard:** Select synthetic case `CASE-2026-001`.
 2. **Evidence Vault:** Verify SHA-256 integrity hashes on ingested artifacts.
